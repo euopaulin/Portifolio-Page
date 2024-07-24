@@ -197,3 +197,61 @@ section.sobre .flex{
     cursor: pointer;
     margin: 0 5px;
 }
+
+section.portfolio{
+    padding: 80px 4%;
+    box-shadow: 0 0 40px #ffffff17;
+}
+
+section.portfolio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.img-port{
+    width: 360px;
+    height: 450px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    position: relative;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: 5s;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+h2.portfolio{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.portfolio span{
+    color: rgb(76, 249, 255);
+    font-size: 38px;
+    text-align: center;
+}
