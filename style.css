@@ -244,13 +244,13 @@ section.portfolio .flex{
     opacity: 1;
 }
 
-h2.portfolio{
+.portfolio h2{
     color: white;
     font-size: 38px;
     text-align: center;
 }
 
-h2.portfolio span{
+.portfolio h2 span{
     color: rgb(76, 249, 255);
     font-size: 38px;
     text-align: center;
