@@ -21,19 +21,19 @@ body {
     display: flex;
 }
 
-h2.titulo{
+h2.titulo {
     color: white;
     font-size: 38px;
     text-align: center;
 }
 
-button:hover{
+button:hover {
     box-shadow: 0px 0px 8px rgb(76, 249, 255);
     transform: scale(1.05);
     transition: .2s;
 }
 
-h2.titulo span{
+h2.titulo span {
     color: rgb(76, 249, 255);
     font-size: 38px;
     text-align: center;
@@ -45,7 +45,7 @@ header {
     padding: 40px 4%;
 }
 
-header > .interface {
+header>.interface {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -59,7 +59,7 @@ header a {
     transition: .2s;
 }
 
-header a:hover{
+header a:hover {
     color: #fff;
     transform: scale(1.05);
 }
@@ -86,55 +86,56 @@ header nav li {
     transition: .2s;
 }
 
-section.topo-do-site{
+section.topo-do-site {
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.topo-do-site .flex {
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo-do-site h1{
+.topo-do-site h1 {
     color: white;
     font-size: 42px;
     line-height: 40px;
 }
 
-.topo-do-site .txt-topo-site h1 span{
+.topo-do-site .txt-topo-site h1 span {
     color: rgb(76, 249, 255);
 }
 
-.topo-do-site .txt-topo-site p{
+.topo-do-site .txt-topo-site p {
     color: white;
     margin: 40px 0;
 }
 
-.topo-do-site .img-topo-site img{
+.topo-do-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
-@keyframes flutuar{
-    0%{
+@keyframes flutuar {
+    0% {
         top: 0;
     }
-    100%{
-        top:30px;
+
+    100% {
+        top: 30px;
     }
 }
 
 /*ESTILO DAS ESPECIALIDADES*/
-section.especialidades{
+section.especialidades {
     padding: 40px 4%;
 }
 
-section.especialidades .flex{
+section.especialidades .flex {
     gap: 60px;
 }
 
-.especialidades .especialidades-box{
+.especialidades .especialidades-box {
     color: white;
     padding: 40px;
     border-radius: 20px;
@@ -142,52 +143,53 @@ section.especialidades .flex{
     transition: .2s;
 }
 
-.especialidades .especialidades-box:hover{
+.especialidades .especialidades-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px rgba(255, 255, 255, 0.452);
 }
 
-.especialidades .especialidades-box i{
+.especialidades .especialidades-box i {
     font-size: 60px;
     color: rgb(76, 249, 255);
 }
 
-.especialidades .especialidades-box h3{
+.especialidades .especialidades-box h3 {
     font-size: 28px;
     margin: 15px 0;
 }
 
 /*ESTILO SOBRE*/
 
-section.sobre{
+section.sobre {
     padding: 80px 4%;
 }
-section.sobre .flex{
+
+section.sobre .flex {
     align-items: center;
     gap: 60px;
 }
 
-.sobre .txt-sobre{
+.sobre .txt-sobre {
     color: white;
 }
 
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
 }
 
-.sobre .txt-sobre h2 span{
+.sobre .txt-sobre h2 span {
     color: rgb(76, 249, 255);
     display: block;
 }
 
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
 }
 
-.sobre .txt-sobre .ph-social button{
+.ph-social button {
     width: 60px;
     height: 60px;
     border-radius: 30px;
@@ -198,17 +200,17 @@ section.sobre .flex{
     margin: 0 5px;
 }
 
-section.portfolio{
+section.portfolio {
     padding: 80px 4%;
     box-shadow: 0 0 40px #ffffff17;
 }
 
-section.portfolio .flex{
+section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
 }
 
-.img-port{
+.img-port {
     width: 360px;
     height: 450px;
     background-size: cover;
@@ -218,12 +220,12 @@ section.portfolio .flex{
     position: relative;
 }
 
-.img-port:hover{
+.img-port:hover {
     background-position: 100% 100%;
 }
 
-.overlay{
-    position:absolute;
+.overlay {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -240,18 +242,143 @@ section.portfolio .flex{
     transition: 5s;
 }
 
-.overlay:hover{
+.overlay:hover {
     opacity: 1;
 }
 
-.portfolio h2{
+.portfolio h2 {
     color: white;
     font-size: 38px;
     text-align: center;
 }
 
-.portfolio h2 span{
+.portfolio h2 span {
     color: rgb(76, 249, 255);
     font-size: 38px;
     text-align: center;
+}
+
+/*ESTILO DO FORMULARIO DE CONTATO */
+
+section.formulario {
+    padding: 80px 4px;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: rgba(39, 39, 39, 0.459);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 200px;
+}
+
+form .btn-enviar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input {
+    width: 120px;
+    background-color: rgb(76, 249, 255);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/*ESTILO DO RODAPÉ*/
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff17;
+}
+
+footer .flex {
+    justify-content: space-between;
+
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid rgb(76, 249, 255);
+}
+
+footer .line-footer p i {
+    color: #fff;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+@media screen and (max-width: 1020px) {
+
+    /*CLASSES GERAIS*/
+    .flex {
+        flex-direction: column;
+    }
+
+    .topo-do-site .flex {
+        flex-direction: column-reverse;
+    }
+
+    h2.titulo {
+        font-size: 34px;
+        line-height: 30px;
+    }
+
+    /*CABEÇALHO*/
+    .menu-desktop,
+    .ph-contato {
+        display: none;
+    }
+
+    /*TOPO DO SITE*/
+
+    section.topo-do-site .flex {
+        gap: 40px;
+    }
+
+    section.topo-do-site {
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1 {
+        font-size: 30px;
+    }
+
+    .sobre .img-port img {
+        width: 100%;
+    }
+
+    /*ESPECIALIDADES*/
+
+    section.especialidades {
+        padding: 40px 8%;
+    }
+
+    
 }
