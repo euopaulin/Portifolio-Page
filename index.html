@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!--Parte do cabeçalho do site-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,12 +15,13 @@
     <title></title>
 </head>
 
+<!--Começa o corpo do site-->
 <body>
     <header>
         <div class="interface">
             <div class="logo">
                 <a href="#">
-                    <img src="Images/asas (1).png" alt="Logo PH DEV" width="170" height="110">
+                    <img src="Images/TesterOrg.png" alt="Logo PH DEV" width="170" height="110">
                 </a>
             </div>
             <nav class="menu-desktop">
@@ -31,12 +33,7 @@
                 </ul>
             </nav>
 
-            <div class="ph-contato">
-                <a href="email-ph">
-                    <button>Contato</button>
-                </a>
-            </div><!--contato-->
-
+            <!--menu mobile-->
             <div class="ph-abrir menu">
                 <i class="bi bi-list"></i>
             </div>
@@ -58,19 +55,23 @@
             <div class="overlay-menu"></div>
         </div><!--interface-->
     </header>
+    <!--Fim do mobile-->
+
     <main>
         <section id="inicio" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
-                        <h1>UMA FORMA PRÁTICA DE TRANSFORMAR IDEIAS DE WEB DESIGNER PARA O USUÁRIO<span>.</span></h1>
-                        <p>Desenvolvendo o pensamento e técnica de traduzir as ideias do cliente de forma criativa e
-                            inovadora, valorizando a acessibilidade do usuário.</p>
+                        <h1>ENTREGAS CONFIÁVEIS COM FOCO NA QUALIDADE E TESTES DE SOFTWARE<span>.</span></h1>
+                        <p>Analisando, testando e automatizando processos para que aplicações entreguem experiências estáveis, seguras e livres de erros. Unindo olhar crítico com ferramentas modernas para prevenir falhas e aumentar a confiança do usuário.</p>
                         <div class="ph-contato">
-                            <a href="formulario">
-                                <button>Entre em contato</button>
-                            </a>
-                        </div><!--phcontato-->
+                            <button onclick="toggleMenu()">Entre em contato</button>
+                            <div id="menu-contato" class="dropdown-content">
+                                <a href="mailto:paulo.henrg1@gmail.com" target="_blank">Email</a>
+                                <a href="https://wa.me/61998607824" target="_blank">Whatsapp</a>
+                                <a href="https://www.linkedin.com/in/euopaulo" target="_blank">linkedin</a>
+                            </div>
+                        </div><!--fim do phcontato-->
                     </div><!--txt-->
                     <div class="img-topo-site">
                         <img src="Images/photo_2024-07-18_09-23-59-Photoroom (2).png" alt="Paulo H" width="275"
@@ -80,24 +81,25 @@
             </div><!--interface-->
         </section><!--topodosite-->
 
+        
         <section id="especialidades" class="especialidades">
             <div class="interface">
                 <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
-                        <i class="bi bi-code-square"></i>
-                        <h3>Website</h3>
-                        <p>Criação de páginas web, sejam elas comerciais ou acadêmicas, além de landing pages também</p>
+                        <i class="bi bi-bug"></i>
+                        <h3>Testes</h3>
+                        <p>Testes manuais e automatizados para bom funcionamento de SOFTWARE</p>
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-phone"></i>
-                        <h3>Mobile interface app</h3>
-                        <p>Elaboração de designers para interfaces de apps mobiles.</p>
+                        <h3>Ferramentas modernas</h3>
+                        <p>Domínio de ferramentas amplamente utilizadas no mercado, como Cypress (automação de testes), Jira (gestão ágil), Nikto (testes de segurança), Git/GitHub (controle de versão) e sistemas baseados em Linux.</p>
                     </div>
                     <div class="especialidades-box">
                         <i class="bi bi-file-person-fill"></i>
-                        <h3>Blog</h3>
-                        <p>Desenvolvimento de blogs para os diversos segmentos.</p>
+                        <h3>Experiência em TI</h3>
+                        <p>Possuo experiência no mercado atuando diretamente com usuários, proporcionando suporte técnico, entendimento de demandas e garantia de qualidade nas entregas.</p>
                     </div>
                 </div><!--flex-->
             </div><!--interface-->
@@ -107,20 +109,19 @@
             <div class="interface">
                 <div class="flex">
                     <div class="img-sobre">
-                        <img src="Images/xcvxvxcv.png" alt="Paulo" width="400" height="475">
+                        <img src="Images/xcvxvxcv.png" alt="Paulo" width="400" height="500">
                     </div><!--img-->
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU PAULO HENRIQUE.</span></h2>
-                        <p>Sou iniciante no mercado e venho evoluindo meus conhecimentos sobre programação e design.
-                            Além de ser estudante de Análise e Desenvolvimento de Sistemas pela UCB-DF, também possuo
-                            formação em Licenciatura em Filosofia pela UnB.</p>
-                        <p>Devido ao meu fascínio por tecnologia e computadores em geral, decidi entrar no mundo da TI
-                            e, a cada dia, venho me descobrindo nesse universo. E Também sou apaixonado pelo mundo dos
-                            games, além de ser rockeiro e guitarrista nas horas vagas.</p>
+                        <p>Sou studante de Engenharia de Software pela UCB-DF, com sólida experiência em Suporte Técnico N1 e N2, atuando na área de Infraestrutura de TI no IPEA por meio da Cast Group e também pela TechCom. Tenho vivência prática com sistemas Windows, Linux, redes, virtualização e atendimento técnico a usuários, com foco em soluções rápidas e eficazes.
+                        </p>    
+                            <p>Atualmente, estou focado em me tornar especialista em Quality Assurance (QA), aprendendo sobre Cypress, testes manuais e automatizados, Kanban, Jira e métodos ágeis. Busco integrar minha bagagem técnica em infraestrutura de TI com práticas modernas de QA, a fim de garantir a entrega de soluções robustas, confiáveis e com alta qualidade ao longo do ciclo de desenvolvimento.
+                            Além disso, tenho conhecimentos em Cloud Computing, serviços de nuvem Microsoft Azure, automação, hardware, manutenção de computadores, suporte a VPNs, Microsoft 365, Intune, ambientes Linux e em nuvem.</p>
+                        <p>Devido ao meu fascínio por tecnologia, games e sede de curiosidade, decidi entrar no mundo da TI e, a cada dia, venho me descobrindo nesse universo.</p>
                         <div class="ph-social">
                             <a href="https://www.linkedin.com/in/euopaulo/"><button><i
                                         class="bi bi-linkedin"></i></button></a>
-                            <a href="https://www.instagram.com/baulo.cx/"><button><i
+                            <a href="https://www.instagram.com/paulin.cx/"><button><i
                                         class="bi bi-instagram"></i></button></a>
                             <a href="https://github.com/euopaulin"><button><i class="bi bi-github"></i></button></a>
                         </div>
@@ -164,19 +165,19 @@
             <div class="line-footer">
                 <div class="flex">
                     <div class="logo-footer">
-                        <img src="Images/asas (1).png" alt="Logo PH DEV" width="110" height="70">
+                        <img src="Images/TesterOrg.png" alt="Logo PH DEV" width="110" height="70">
                     </div>
                 </div>
             </div>
             <section id="email-ph">
                 <div class="line-footer borda">
                     <p>
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:paulo.henrg1@gmail.com">paulo.henrg1@gmail.com</a>
+                        <i></i>
                     </p>
                 </div>
             </section>
         </div><!--interface-->
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
