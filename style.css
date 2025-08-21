@@ -360,6 +360,36 @@ section.portfolio .flex {
     text-align: center;
 }
 
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: black 0px 0px 8px 2px;
+}
+
+.portfolio-item h3{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.portfolio-img h3{
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.portfolio-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 /*ESTILO DO FORMULARIO DE CONTATO */
 
 section.formulario {
