@@ -18,10 +18,10 @@
 }
 
 body {
-    animation: fundoAnimado 5s infinite;
+    animation: fundoAnimado 15s infinite;
     background: linear-gradient(-45deg, #227272, #010f0f, #8d8f8f);
     background-size: 400% 400%;
-    transition: background 1s ease;
+    transition: background 5s ease;
 }
 
 .interface {
