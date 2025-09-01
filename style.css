@@ -18,8 +18,8 @@
 }
 
 body {
-    animation: fundoAnimado 15s infinite;
-    background: linear-gradient(-45deg, #227272, #010f0f, #8d8f8f);
+    animation: fundoAnimado 5s infinite;
+    background: linear-gradient(-45deg, #227272, #0c0c0c, #30a7a7);
     background-size: 400% 400%;
     transition: background 5s ease;
 }
@@ -35,7 +35,7 @@ body {
 
 h2.titulo {
     color: white;
-    font-size: 38px;
+    font-size: 33px;
     text-align: center;
 }
 
@@ -47,7 +47,7 @@ button:hover {
 
 h2.titulo span {
     color: rgb(76, 249, 255);
-    font-size: 38px;
+    font-size: 33px;
     text-align: center;
 }
 
@@ -191,7 +191,7 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: white;
-    font-size: 37px;
+    font-size: 33px;
     line-height: 40px;
 }
 
@@ -248,7 +248,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box i {
-    font-size: 47px;
+    font-size: 49px;
     color: rgb(76, 249, 255);
 }
 
@@ -268,12 +268,21 @@ section.sobre .flex {
     gap: 60px;
 }
 
+.sobre .img-sobre img {
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.txt-sobre span {
+    color: rgb(76, 249, 255);
+}
+
 .sobre .txt-sobre {
     color: white;
 }
 
 .sobre .txt-sobre h2 {
-    font-size: 37px;
+    font-size: 33px;
     line-height: 40px;
     margin-bottom: 30px;
 }
@@ -289,8 +298,8 @@ section.sobre .flex {
 }
 
 .ph-social button {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 30px;
     border: none;
     background-color: rgb(76, 249, 255);
@@ -350,13 +359,13 @@ section.portfolio .flex {
 
 .portfolio h2 {
     color: white;
-    font-size: 38px;
+    font-size: 33px;
     text-align: center;
 }
 
 .portfolio h2 span {
     color: rgb(76, 249, 255);
-    font-size: 38px;
+    font-size: 33px;
     text-align: center;
 }
 
