@@ -1,7 +1,16 @@
-## 👜 Página Web do meu Portfolio focando em Analista de Infra
+### Bem-vindo(a) ao meu portfolio 👜
+Esta página foi desenvolvida para apresentar meus projetos e estudos focados em Infraestrutura de TI. Meu objetivo é demonstrar minhas habilidades técnicas e paixão por soluções de infraestrutura, automação e segurança.
 
-### Criei essa página web com o intuito de mostrar meu trabalho e estudos na área de Infraestrutura de TI. Tenho projetos de scripts em Python para automação de tarefas, automação de comandos do Linux, desenvolvimento de jogos com pygame, implatação de configuração de máquina virtual na Azure e testes de segurança com ferramentas para verificar vunerabilidades.
+### Principais Áreas de Atuação e Projetos:
 
-## 🛠️ Ferramentas utilizadas:
+Automação e Scripting: Desenvolvi `scripts em Python` para automatizar tarefas rotineiras, como a gestão de comandos Linux, otimizando fluxos de trabalho e aumentando a eficiência operacional.
 
- - HTML, CSS e JS
+Computação em Nuvem: Tenho experiência na implementação e configuração de máquinas virtuais na Azure, demonstrando conhecimento prático em ambientes de nuvem.
+
+Segurança da Informação: Realizei testes de segurança e utilizei ferramentas específicas para identificar e mitigar vulnerabilidades, garantindo a integridade dos sistemas.
+
+Desenvolvimento Complementar: Para expandir minhas habilidades de lógica e programação, criei jogos utilizando a biblioteca Pygame, que me ajudou a aprofundar meu raciocínio de código.
+
+### Tecnologias Utilizadas:
+
+HTML, CSS e JavaScript
